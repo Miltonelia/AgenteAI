@@ -1,0 +1,89 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+    background: linear-gradient(to bottom, #000, #001f3f); 
+    color: #fff; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+}
+
+.hero { 
+    background: linear-gradient(to right, #001f3f, #0074D9, #FF6B35); 
+    padding: 50px; 
+    border-radius: 0 0 20px 20px; 
+    margin: 0; 
+}
+
+.hero h1 { 
+    font-size: 3em; 
+    text-shadow: 0 0 10px #0074D9; 
+}
+
+.cta { 
+    background: #FF6B35; 
+    color: #000; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    border-radius: 50px; 
+    margin: 10px; 
+    display: inline-block; 
+    font-weight: bold; 
+    box-shadow: 0 0 20px #FF6B35; 
+}
+
+.cta:hover { 
+    box-shadow: 0 0 30px #FF6B35; 
+}
+
+.section { 
+    padding: 40px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.tokenomics, .roadmap { 
+    background: rgba(0,0,0,0.5); 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px 0; 
+}
+
+.distribution { 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.dist-item { 
+    flex: 1; 
+    min-width: 200px; 
+    margin: 10px; 
+}
+
+.roadmap ol { 
+    list-style: none; 
+    padding: 0; 
+}
+
+.roadmap li { 
+    margin: 20px 0; 
+    padding: 10px; 
+    background: rgba(255,107,53,0.2); 
+    border-left: 5px solid #0074D9; 
+    text-align: left; 
+}
+
+footer { 
+    background: #000; 
+    padding: 20px; 
+    font-size: 0.8em; 
+}
+
+.wallet-connect { 
+    margin: 20px; 
+}
+
+@media (max-width: 768px) { 
+    .hero h1 { font-size: 2em; } 
+    .distribution { flex-direction: column; } 
+}
