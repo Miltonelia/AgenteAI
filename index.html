@@ -1,49 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AgenteAI • Tu yo del 2040 ya está vivo</title>
-  <meta name="description" content="Activa tu gemelo digital del 2040 GRATIS. Crea contenido viral y gana dinero mientras duermes."/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgenteAI – Tu agente de voz en español</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto:wght@300;700&display=swap');
-    body { margin:0; background:#000; color:#fff; font-family:'Roboto',sans-serif; text-align:center; overflow-x:hidden; }
-    .glitch { font-family:'Orbitron',sans-serif; font-size:70px; background:linear-gradient(90deg,#00ffea,#ff00c8,#00ffea); -webkit-background-clip:text; color:transparent; animation:glitch 3s infinite; }
-    @keyframes glitch { 0%,100%{text-shadow:0 0 10px #00ffea;} 20%{text-shadow:5px 0 10px #ff00c8;} 40%{text-shadow:-5px 0 20px #00ffea;} 60%{text-shadow:10px 0 15px #ff00c8;} 80%{text-shadow:-10px 0 20px #00ffea;} }
-    .subtitle { font-size:28px; margin:30px 0; color:#00ffea; }
-    .form-box { max-width:500px; margin:50px auto; padding:20px; }
-    input, button { width:100%; padding:20px; margin:10px 0; font-size:20px; border-radius:8px; }
-    input { background:#111; border:2px solid #00ffea; color:white; }
-    button { background:linear-gradient(90deg,#00ffea,#ff00c8); color:black; border:none; cursor:pointer; font-weight:bold; transition:0.3s; }
-    button:hover { transform:scale(1.05); }
-    .footer { margin-top:100px; color:#888; font-size:14px; }
-    .neon { text-shadow:0 0 20px #00ffea; }
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #0a1a2f; color: white; }
+    header { text-align: center; padding: 80px 20px; background: linear-gradient(to bottom, #0f2b47, #0a1a2f); }
+    h1 { font-size: 3.5rem; margin: 0; }
+    h2 { font-size: 2rem; margin: 40px 0 20px; }
+    p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 40px; line-height: 1.6; }
+    .highlight { color: #a0ff9d; font-weight: bold; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 60px 0; }
+    .card { background: #142840; padding: 30px; border-radius: 16px; text-align: center; }
+    .price { font-size: 2.5rem; color: #a0ff9d; margin: 20px 0; }
+    .btn { display: inline-block; background: #a0ff9d; color: #0a1a2f; padding: 16px 32px; border-radius: 50px; font-size: 1.3rem; font-weight: bold; text-decoration: none; margin: 20px 0; }
+    .btn:hover { background: #8bff80; }
+    .demo { background: #1e3a5f; padding: 40px; border-radius: 16px; margin: 60px 0; text-align: center; }
+    footer { text-align: center; padding: 40px; color: #666; font-size: 0.9rem; }
   </style>
 </head>
 <body>
-  <div style="padding:60px 20px;">
-    <h1 class="glitch">AGENTE AI</h1>
-    <h2 class="subtitle">Activa tu yo del 2040 <span class="neon">GRATIS</span><br>(solo los primeros 500 cupos)</h2>
-    <p style="font-size:24px; max-width:700px; margin:40px auto; line-height:1.6;">
-      Tu gemelo digital del futuro ya está vivo.<br>
-      Crea reels virales, tuitea solo, negocia patrocinios y gana dinero 24/7 mientras duermes.
-    </p>
 
-    <div class="form-box">
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLSeQ0h7l7l9d8iX8T9d7kG0bF5s0_2kI5qW0vK8mJ9pL2xZ3cA/formResponse" method="POST" target="_self">
-        <input type="text" name="entry.1234567890" placeholder="Tu @ de X o nombre completo" required />
-        <input type="email" name="entry.987654321" placeholder="Tu correo (para enviarte tu agente)" />
-        <button type="submit">ACTIVAR MI YO DEL 2040 GRATIS</button>
-      </form>
+  <header>
+    <div class="container">
+      <h1>AgenteAI</h1>
+      <p>Tu agente de voz en español con <span class="highlight">Grok Voice</span></p>
+      <p class="highlight">Habla de TODO: crypto, amor, yields, ciencia, memes, filosofía... sin límites.</p>
     </div>
+  </header>
 
-    <p style="margin-top:80px; font-size:18px; color:#ff00c8;">
-      2040 ya llegó. Tú decides si llegas primero.
-    </p>
-  </div>
+  <section class="demo">
+    <div class="container">
+      <h2>Prueba 1 minuto GRATIS</h2>
+      <audio controls style="width: 100%; max-width: 600px;">
+        <source src="https://tu-demo-voice.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+      <br><br>
+      <a href="#comprar" class="btn">Hablar con AgenteAI ahora ($0.10/min)</a>
+    </div>
+  </section>
 
-  <div class="footer">
-    © 2025 AgenteAI • Hecho con 0 pesos y pura visión del futuro
-  </div>
+  <section class="container">
+    <h2>Precios simples</h2>
+    <div class="cards">
+      <div class="card">
+        <p>Prueba gratis</p>
+        <div class="price">1 minuto</div>
+        <p>Escucha la voz Grok real-time</p>
+      </div>
+      <div class="card">
+        <p>Paquete básico</p>
+        <div class="price">$10</div>
+        <p>100 minutos de voz</p>
+        <p>$0.10/min</p>
+      </div>
+      <div class="card">
+        <p>Mejor valor</p>
+        <div class="price">$20</div>
+        <p>250 minutos (bonus 25%)</p>
+        <p>$0.08/min</p>
+      </div>
+    </div>
+    <p style="text-align: center;">Pago con tarjeta o crypto – powered by Nevermined + Stripe</p>
+  </section>
+
+  <section class="container" id="comprar">
+    <div class="text-center">
+      <a href="https://nevermined.app/tu-link-pago" class="btn">Comprar créditos ahora</a>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Tecnología</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Grok Voice API</h3>
+        <p>Voz real-time, multilingual, $0.05/min base</p>
+      </div>
+      <div class="card">
+        <h3>Nevermined Pay</h3>
+        <p>Monetización per-minuto, fiat/crypto</p>
+      </div>
+      <div class="card">
+        <h3>.agente TLD</h3>
+        <p>Tu identidad soberana en Web3</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>@AgenteAI en X • agenteai.fun • Powered by Grok & Nevermined</p>
+    <p>© 2025 Milton Elias</p>
+  </footer>
+
 </body>
 </html>
